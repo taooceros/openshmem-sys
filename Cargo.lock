@@ -129,7 +129,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "openmpi-sys"
+name = "openshmem-sys"
 version = "0.1.0"
 dependencies = [
  "bindgen",

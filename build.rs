@@ -3,7 +3,7 @@ extern crate pkg_config;
 
 fn main() {
     let oshmem = pkg_config::Config::new()
-        .atleast_version("2.7")
+        .atleast_version("4")
         .probe("oshmem")
         .unwrap();
 
